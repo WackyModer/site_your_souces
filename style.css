@@ -22,11 +22,19 @@ html {
     border-radius: 50%;
     max-width: 15%; /* Set the maximum width of the image */
     margin-right: 5%; /* Add some margin to the right for spacing */
+    margin-left: 1.5%;
 }
 
 /* Style for the text */
 .topDawg h1 {
     margin: 0; /* Remove default margin for paragraphs */
+}
+
+.bottomDawg {
+    margin-top: 5%;
+    width: 100%;
+    margin-left: 2%;
+    font-size: 1.25rem;
 }
 
 .mainCenteredBox {
@@ -36,7 +44,7 @@ html {
     align-items: center;
 
     overflow: hidden;
-    background-color: rgb(48, 48, 48);
+    background-color: rgb(40, 40, 40);
     width: 70%;
     height: 60%;
     border-radius: 40px;
