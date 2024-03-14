@@ -1,20 +1,88 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css">
+        <!--<link rel="stylesheet" href="style.css">-->
         <meta property="og:title" content="Feds.contact, WackyModer's personal site" />
         <meta property="og:description" content="This is just my personal site where I can kinda just screw around a post projects and people can go to to have a look at *me*." />
         <meta property="og:url" content="https://feds.contact"/>
     </head>
+
+    <style>
+html {
+    background-color: rgb(8, 8, 8);
+    font-family: Ubuntu, sans-serif;
+    text-align: left;
+    
+    overflow: hidden;
+}
+
+
+.mainCenteredBox { 
+    display: flex;
+    /*justify-content: center;*/
+
+    overflow: hidden;
+    background-color: rgb(210, 210, 210);
+    width: 40%;
+    min-height: 100%;
+    
+
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+}
+
+.hovShit {
+    text-decoration: underline dotted; 
+    cursor: help;
+}
+
+.mainContent {
+    width: 100%;
+
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.headerThing {
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.linkThing {
+    color: black;
+    text-decoration: underline dotted;
+}
+    </style>
+
     <body>
+        
         <div class="mainCenteredBox">
-                
-            <p>
-                <b style="justify-content: center;">Haiii</b>
-                <br>
-                <br>
-                I am a stupid (and a lil silly :3) developer that
-            </p>
+
+            
+
+            <div class="mainContent">    
+                <p class="headerThing">Haiii</p>
+                <p>
+                    I am a dumb developer that makes things like badly designed websites (you can see that), 
+                    stupid projects based off of what I'm currently intrested in, and 
+                    <a href="https://link.feds.contact" class="linkThing">things that can have some use</a>. (may or may not be down rn :3)
+                </p>
+                <p>
+                    My current project(s) are getting my link service working (unless it <i>is</i> working) and
+                    getting a site centered around modding a certain game working properly. Not going to link it here because it is 
+                    <b><i>very</i></b> imcomplete...
+                </p>
+            </div>
         </div>
     </body>
 </html>

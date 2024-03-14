@@ -27,3 +27,7 @@ html {
     text-decoration: underline dotted; 
     cursor: help;
 }
+
+.mainContent {
+    width: 100%;
+}
